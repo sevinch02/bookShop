@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 20px;
+    background-color: khaki;
+    margin-top: -15px;
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+.category-buttons {
+    padding-top: 100px;
+    margin: 10px;
+}
+
+.category-btn {
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+
+.category-btn:hover {
+    background-color: red;
+    color: tan
+}
+
+.book__btn {
+    width: 95%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+.book__btn:active {
+    color: red;
+    background-color: dimgray;
+}
+
+.book__title {
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cart-count {
+    display: inline-block;
+    padding: 3px 4px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#books {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 210px;
+    height: 450px;
+    margin-left: 12px;
+    text-align: center;
+    background-color: darkseagreen;
+    margin-top: 10px;
+}
+
+.book__photo {
+    width: 95%;
+    height: 50%;
+
+}
+
+.book:active {
+    box-shadow: 10px 5px 5px red;
+}
+
+/**/
+.cartItems {
+    display: flex;
+}
+
+.cartItems__tr {
+    width: 300px;
+    height: 50px;
+    background-color: hsl(0, 14%, 85%);
+    box-shadow: 10px 5px 5px gray;
+
+}
+
+.image {
+    text-align: center;
+    width: 100px;
+    height: 80px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.title {
+    width: 17%;
+    text-align: center;
+}
+
+.price {
+    width: 15%;
+    text-align: center;
+}
+
+.delete-btn {
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.delete-btn:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.total_price {
+    margin: 23px 323px;
+}

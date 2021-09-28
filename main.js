@@ -323,10 +323,10 @@ function createBookDiv(bookObject) { ///////////2
     divEl.className = 'book';
     divEl.innerHTML = `
  <img src="img/${bookObject.coverFileName}" alt"${bookObject.title}" class="book__photo">
- <h3 class="book__title">${bookObject.title}<h3/>
- <h4 class="book__category">${bookObject.category}<h4/>
- <h5 class="book__authoz"> ${bookObject.author} <h5/>
- <p class="book__price">${bookObject.price + ' $'}<div/>
+ <h3 class="book__title">${bookObject.title}</h3>
+ <h4 class="book__category">${bookObject.category}</h4>
+ <h5 class="book__authoz"> ${bookObject.author} </h5>
+ <p class="book__price">${bookObject.price + ' $'}</div>
  <button type="button" data-id="${bookObject.bookId}" class="book__btn"> Add to card </button>
  `;
 
